@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="/results" method="POST">
+  <h1>1. Select your city</h1>
+  <p>Enter your city name</p>
+  <input type="text" name="city" placeholder="Enter your city">
+   <p>Or enter your latitude and longitude (Geocode my city)</p>
+  <input type="text" name="lat" placeholder="Enter latitude">
+  <input type="text" name="lon" placeholder="Enter longitude">
+  <input type='submit'>
+</form>
+
+
+<img src="static/test_plot.png">
+<script>
+
+  
+
+
+</script>
+
+
+{% endblock %}
