@@ -13,7 +13,7 @@ def index():
     y_temp = [18,15,13,9,8,8,11]
     plt.plot(x_time, y_temp)
     plt.savefig('test_chart')
-
+    print("hello")
     return render_template("home.html")
 
 
